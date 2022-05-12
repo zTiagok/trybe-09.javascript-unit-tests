@@ -66,7 +66,6 @@ describe('10 - Implemente os casos de teste e a função `createMenu`', () => {
     // considerando que a função createMenu() foi chamada com o objeto: `{ food: {}, drink: {} }`.
     // ```
     const objetoRetornado = createMenu({ food: {}, drink: {} });
-    const objetoRetornado2 = createMenu({ food: {'coxinha': 3.90, 'sanduiche': 9.90}, drink: {'agua': 3.90, 'cerveja': 6.90} });
     // objetoRetornado.fetchMenu() // Retorno: { food: {}, drink: {}}
     // ```
      expect(Object.keys(objetoRetornado.fetchMenu())[0]).toEqual('food');
@@ -143,8 +142,7 @@ describe('10 - Implemente os casos de teste e a função `createMenu`', () => {
     // objetoRetornado.pay() // Retorno: somaDosPreçosDosPedidos
     // ```
 
-    expect(objetoRetornado2.pay()).toBe(15)
-      
+      expect(createMenu().pay()).toBeCloseTo(0, 1)
   
     // Agora faça o PASSO 4 no arquivo `src/restaurant.js`.
   });

@@ -98,27 +98,18 @@ const createMenu = (menu) => ({
   consumption: () => [],
   // eslint-disable-next-line complexity
   pay: () => {
-    // let value = 0;
-    // for (let index = 0; index < createMenu().consumption().length; index += 1) {
-    //   value += Object.values(createMenu().consumption()[index]);
-    // }
 
-    // return value;
-    // let foodPrice = 0;
-    // let drinkPrice = 0;
-    // for (let index = 0; index < createMenu().consumption().length; index += 1) {
-    //   for (let indexFood = 0; indexFood < createMenu().fetchMenu().food.length; index += 1) {
-    //     if (createMenu().consumption()[index] === createMenu().fetchMenu().food[indexFood]) {
-    //       foodPrice += Object.values(createMenu.fetchMenu().food[indexFood]);
-    //     }
-    //   }
-    //   for (let indexDrink = 0; indexDrink < createMenu().fetchMenu().drink.length; index += 1) {
-    //     if (createMenu().consumption()[index] === createMenu().fetchMenu().drink[indexDrink]) {
-    //       drinkPrice += Object.values(createMenu.fetchMenu().drink[indexDrink]);
-    //     }
-    //   }
-    // }
-    // return (foodPrice + drinkPrice);
+    let value = 0;
+
+    for (let index = 0; index < createMenu().consumption().length; index += 1) {
+      for (let indexFood = 0; indexFood < createMenu().fetchMenu().food.length; indexFood += 1) {
+        if (createMenu().consumption()[index] === createMenu().fetchMenu().food[indexFood]) {
+          value += Object.values(createMenu().fetchMenu().food[indexFood]);
+          value += Object.values(createMenu().fetchMenu().drink[indexFood]);
+        }
+      }
+    }
+    return (value) * 1.1;
   },
 });
 
