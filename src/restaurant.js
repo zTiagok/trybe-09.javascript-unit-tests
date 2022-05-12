@@ -93,10 +93,37 @@
 // - retornará o valor somado acrescido de 10%.
 // DICA: para isso, você precisará percorrer tanto o objeto da chave `food` quanto o objeto da chave `drink`.
 
-const createMenu = () => {
-  function fetchMenu() {
-    console.log('oi');
-  }
-};
+const createMenu = (menu) => ({
+  fetchMenu: () => menu,
+  consumption: () => [],
+  // eslint-disable-next-line complexity
+  pay: () => {
+    // let value = 0;
+    // for (let index = 0; index < createMenu().consumption().length; index += 1) {
+    //   value += Object.values(createMenu().consumption()[index]);
+    // }
 
-module.exports = createMenu;
+    // return value;
+    // let foodPrice = 0;
+    // let drinkPrice = 0;
+    // for (let index = 0; index < createMenu().consumption().length; index += 1) {
+    //   for (let indexFood = 0; indexFood < createMenu().fetchMenu().food.length; index += 1) {
+    //     if (createMenu().consumption()[index] === createMenu().fetchMenu().food[indexFood]) {
+    //       foodPrice += Object.values(createMenu.fetchMenu().food[indexFood]);
+    //     }
+    //   }
+    //   for (let indexDrink = 0; indexDrink < createMenu().fetchMenu().drink.length; index += 1) {
+    //     if (createMenu().consumption()[index] === createMenu().fetchMenu().drink[indexDrink]) {
+    //       drinkPrice += Object.values(createMenu.fetchMenu().drink[indexDrink]);
+    //     }
+    //   }
+    // }
+    // return (foodPrice + drinkPrice);
+  },
+});
+
+const orderMenu = (orderItem) => ({
+  order: () => createMenu().consumption().push(orderItem),
+});
+
+module.exports = { createMenu, orderMenu };
