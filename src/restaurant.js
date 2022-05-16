@@ -98,15 +98,11 @@ const createMenu = (menu) => ({
   consumption: () => [],
   // eslint-disable-next-line complexity
   pay: () => {
-
     let value = 0;
 
     for (let index = 0; index < createMenu().consumption().length; index += 1) {
       for (let indexFood = 0; indexFood < createMenu().fetchMenu().food.length; indexFood += 1) {
-        if (createMenu().consumption()[index] === createMenu().fetchMenu().food[indexFood]) {
-          value += Object.values(createMenu().fetchMenu().food[indexFood]);
-          value += Object.values(createMenu().fetchMenu().drink[indexFood]);
-        }
+          value += Object.values(createMenu().fetchMenu().food[index]);
       }
     }
     return (value) * 1.1;
