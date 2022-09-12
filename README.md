@@ -21,7 +21,36 @@
     🚨 Warning 🚨
   </h3>
   <br>
-  <span> The test files were provided by Trybe to evaluate the project. </span>
+  <span> Some Javascript and test files were provided by Trybe to evaluate the project. </span>
+  <br><br>
+  <details>
+    <summary> Trybe's Files </summary>
+    <br>
+      <b> "/src" Folder </b>
+      <br>
+      <span> cicle.js </span>
+      <br>
+      <span> getCharacter.js </span>
+      <br>
+      <span> numbers.js </span>
+      <br>
+      <span> productDetails.js </span>
+      <br><br>
+      <b> "/tests" Folder </b>
+      <br>
+      <span> average.spec.js </span>
+      <br>
+      <span> createStudent.spec.js </span>
+      <br>
+      <span> myCounter.spec.js </span>
+      <br>
+      <span> objPlayground.spec.js </span>
+      <br>
+      <span> vqv.spec.js </span>
+      <br>
+  </details>
+  <br>
+  <span> <b> The other files in the "/src" and "/tests" folders were all made by me! </b> </span>
   <br>
   <hr>
   <h3>
