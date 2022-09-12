@@ -1,15 +1,15 @@
 <div align="center">
   <h3>
-    Check out this project <a href="-"> website</a>! 
+    This project has no website.
   <h3>
   <h2>
-    -
+    Javascript Unit Tests
     <br><br>
   </h2>
 
   > Status: Finished ✔️
   >
-  > Conclusion Date: - 📆
+  > Conclusion Date: 16/05/2022 :calendar:
   >
   > Version: - 🧪
   >
@@ -28,9 +28,9 @@
     ℹ️ Information ℹ️
   </h3>
   <br>
-  <span> - </span> 
+  <span> Unit testing is key to creating quality and secure projects, and this is our first step with that foundation. </span> 
   <br><br>
-  <span> - </span>
+  <span> Following the requirements, we implement a test environment to test the application. </span>
   <br>
   <hr>
   <h3>
@@ -39,26 +39,39 @@
   <div align="left">
   <br>
   
-- [X] 1. 
-- [X] 2. 
-- [X] 3. 
-- [X] 4. 
-- [X] 5. 
-- [X] 6. 
-- [X] 7. 
-- [X] 8.
-- [X] 9. 
-- [X] 10. 
-- [X] 11. 
-- [X] 12. 
+- [X] 1. Implement the `average` function.
+- [X] 2. Implement test cases for `numbers` function.
+- [X] 3. Implement the `vqv` function.
+- [X] 4. Implement test cases for the `circle` function.
+- [X] 5. Implement the `createStudent` function.
+- [X] 6. Implement test cases for `productDetails` function.
+- [X] 7. Implement `calculator` and `arrayGenerator` functions.
+- [X] 8. Implement the `myCounter` function.
+- [X] 9. Implement test cases for the `getCharacter` function.
   </div>
   <br>
   <hr>
   <h3>
-    📄 Pages and Components 📄
+    📄 Functionalities 📄
   </h3>
   <br>
-  <span> - </span>
+  <span> ◐ The "average" function takes an array of variable size and returns the average of the received values ◑ </span>
+  <br><br>
+  <span> ◐ The "numbers" function takes an array of variable size and returns "true" if all parameters are of type "number" and "false" otherwise. <b> Function implemented by Trybe, we just need to test it</b>. ◑ </span>
+  <br><br>
+  <span> ◐ The function "vqv" returns a phrasehe string and name parameters. ◑ </span>
+  <br><br>
+  <span> ◐ The function "circle" takes the radius of a circle and returns an object containing its information: Radius, Area and Circumference. <b> Function implemented by Trybe, we just need to test it</b>. ◑ </span>
+  <br><br>
+  <span> ◐ The function "createStudent" takes as parameter a "name", and returns an object containing two keys, "name" passed by the parameter and "feedback" containing a function that returns the phrase "Eita pessoa boa!" ◑ </span>
+  <br><br>
+  <span> ◐ The "productDetails" function takes two strings representing product names, and returns an array containing two objects with product details. <b> Function implemented by Trybe, we just need to test it</b>. ◑ </span>
+  <br><br>
+  <span> ◐ The function "calculator" takes two integers as parameters and returns an object with the keys "sum", "mult", "div", and "sub". The "arrayGenerator" function converts objects into arrays of keys, values, or both. ◑ </span>
+    <br><br>
+  <span> ◐ The function "myCounter" has two nested loops that insert values into an array. ◑ </span>
+    <br><br>
+  <span> ◐ The function "getCharacter" takes a string representing the name of a character and returns an object containing its name, its class, and its sentences. <b> Function implemented by Trybe, we just need to test it</b> ◑ </span>
   <br>
   <hr>
   <h3>
@@ -72,8 +85,8 @@
     </thead>
     <tbody>
       <tr>
-        <td> - </td>
-        <td> - </td>
+        <td> Jest </td>
+        <td> 24.9.0 </td>
       </tr>
     </tbody>
   </table>
