@@ -59,7 +59,7 @@
   <br><br>
   <span> ◐ The "numbers" function takes an array of variable size and returns "true" if all parameters are of type "number" and "false" otherwise. <b> Function implemented by Trybe, we just need to test it</b>. ◑ </span>
   <br><br>
-  <span> ◐ The function "vqv" returns a phrasehe string and name parameters. ◑ </span>
+  <span> ◐ The function "vqv" returns a phrase with a string and name parameters. ◑ </span>
   <br><br>
   <span> ◐ The function "circle" takes the radius of a circle and returns an object containing its information: Radius, Area and Circumference. <b> Function implemented by Trybe, we just need to test it</b>. ◑ </span>
   <br><br>
