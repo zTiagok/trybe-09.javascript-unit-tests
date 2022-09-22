@@ -57,9 +57,9 @@
     ℹ️ Information ℹ️
   </h3>
   <br>
-  <span> Unit testing is key to creating quality and secure projects, and this is our first step with that foundation. </span> 
+  <span> Unit testing is key to creating quality and secure projects, and this is my first step with that foundation. </span> 
   <br><br>
-  <span> Following the requirements, we implement a test environment to test the application. </span>
+  <span> Following the requirements, I implemented a test environment to test the application. </span>
   <br>
   <hr>
   <h3>
